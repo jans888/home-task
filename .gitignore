@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Dependency directories
+node/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# dotenv environment variables file
+.env
+.env.test
+
+# IDE specific files
+.vscode/
+
+# Playwright specific
+playwright-report/
+test-results/
+
+# Test artifacts
+screenshots/
+videos/
+package-lock.json
