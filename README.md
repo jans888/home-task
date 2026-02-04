@@ -10,16 +10,16 @@ Comprehensive end-to-end test scenarios covering:
 
 These scenarios have the highest priority as they directly impact revenue and lead capture:
 
-1. **Step 1 — ZIP Code (validation + routing)**
+1. **Step 1 - ZIP Code (validation + routing)**
    - Critical for determining service availability and routing users appropriately
    
-2. **Step 5 — Phone number (required, exactly 10 digits)**
+2. **Step 5 - Phone number (required, exactly 10 digits)**
    - Essential for capturing contact information from leads
    
-3. **Successful submission — Thank You page**
+3. **Successful submission - Thank You page**
    - Confirms the complete flow works and users reach the success state
    
-4. **Out-of-area flow — Sorry email capture**
+4. **Out-of-area flow - Sorry email capture**
    - Captures leads even when service isn't available in their area
    
 5. **Landing page and critical UI smoke**
@@ -27,7 +27,7 @@ These scenarios have the highest priority as they directly impact revenue and le
 
 #### Prioritization Logic
 - **Revenue Impact**: These scenarios directly gate revenue/lead capture. If ZIP routing, phone validation, or final submission breaks, you lose leads immediately.
-- **Complete Funnel Coverage**: They cover both main funnels - in-area → full submit + thank you, and out-of-area → email capture. This covers virtually 100% of user outcomes.
+- **Complete Funnel Coverage**: They cover both main funnels - in-area: full submit + thank you, and out-of-area: email capture. This covers virtually 100% of user outcomes.
 - **Risk & Frequency**: Highest risk + highest impact + highest change frequency. Validation rules, routing logic, and responsive breakpoints are the things that regress most often during UI tweaks.
 - **Early Warning**: They serve as good "early warning" tests. If these pass, you have strong confidence the landing/form is functional end-to-end across devices.
 
