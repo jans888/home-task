@@ -18,7 +18,7 @@ async function goToStep5(app: WalkInBathPage) {
   return { step5: app.formTop.getStep5() };
 }
 
-test.describe('Phone step (Step 5): required + exactly 10 digits', () => {
+test.describe('Step 5 - Phone number (required, exactly 10 digits)', () => {
   test('Phone required/format + paste + Enter submit + rapid submit', async ({ app, page, context }) => {
     test.slow();
 

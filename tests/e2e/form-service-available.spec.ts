@@ -1,6 +1,6 @@
 import { test, expect, validFormData } from '../fixtures/appFixtures';
 
-test('Form service available flow', async ({ app, page }) => {
+test('Successful submission - Thank You page', async ({ app, page }) => {
 
   await test.step('Open landing page', async () => {
     await app.goto('/');

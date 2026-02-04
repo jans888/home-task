@@ -6,7 +6,7 @@ async function openLanding(app: WalkInBathPage) {
   await app.expectLoaded();
 }
 
-test.describe('Landing — critical UI/components availability', () => {
+test.describe('Landing page and critical UI smoke', () => {
   test('Landing page smoke: critical blocks render and are usable', async ({ app, page }) => {
 
     await test.step('Open landing (desktop viewport)', async () => {

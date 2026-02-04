@@ -1,6 +1,6 @@
 import { test, expect, edgeCaseData, sorryFlowData } from '../fixtures/appFixtures';
 
-test.describe('ZIP validation', () => {
+test.describe('Step 1 - ZIP Code (validation + routing)', () => {
   test('required/format validation + availability routing + Enter submit + rapid submit + form isolation', async ({ app, page }) => {
 
     await test.step('Open landing page + verify loaded', async () => {

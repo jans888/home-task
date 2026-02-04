@@ -1,7 +1,7 @@
 import { test } from '../fixtures/appFixtures';
 import { sorryFlowData } from '../../src/data/formTestData';
 
-test('P0 — Out-of-area “Sorry” flow (Form 1): captures email', async ({ app }) => {
+test('Out-of-area flow - Sorry email capture', async ({ app }) => {
 
   await test.step('Open landing page', async () => {
     await app.goto('/');
